@@ -1,0 +1,26 @@
+  [1m[35m (315.5ms)[0m  [1m[35mCREATE DATABASE "app_development" ENCODING = 'unicode'[0m
+  [1m[35m (317.4ms)[0m  [1m[35mCREATE DATABASE "app_test" ENCODING = 'unicode'[0m
+Started GET "/" for 172.27.0.1 at 2020-09-18 05:03:43 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 45.0ms | Allocations: 476)
+Completed 200 OK in 176ms (Views: 104.3ms | ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+Started GET "/" for 172.27.0.1 at 2020-09-18 05:03:52 +0000
+Cannot render console from 172.27.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.7ms | Allocations: 193)
+Completed 200 OK in 27ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 734)
+
+
+Started GET "/" for 172.28.0.1 at 2020-09-18 05:04:49 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 23.0ms | Allocations: 317)
+Completed 200 OK in 85ms (Views: 50.7ms | ActiveRecord: 0.0ms | Allocations: 1604)
+
+
